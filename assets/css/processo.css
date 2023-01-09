@@ -6,6 +6,9 @@
     width: 100%;
     padding-bottom: 5em;
 }
+#processo a{
+    margin-top: 3.5em;
+}
 #processo h1 {
     font-size: 1.5em;
     text-transform: uppercase;
