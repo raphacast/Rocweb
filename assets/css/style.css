@@ -70,7 +70,12 @@ header .container {
     z-index: 999;
     background-color: #eb5757;
 }
-
+.logo{
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+}
 .container {
     width: 1200px;
     height: 100%;
@@ -98,6 +103,9 @@ header .container {
     justify-content: center;
     padding: 3rem;
 }
+.home-left-body .txt-custom{
+    font-size: 14px;
+}
 
 .home-left-body h1 {
     font-size: 50px;
@@ -108,6 +116,8 @@ header .container {
 .home-left-body p {
     width: 30em;
     margin-top: 1rem;
+    font-size: 25px;
+    line-height: 1.2em;
 }
 
 .bt-home {

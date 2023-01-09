@@ -1,0 +1,40 @@
+#processo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-bottom: 5em;
+}
+#processo h1 {
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: 400;
+    padding-bottom: 2em;
+}
+.processo-box{
+    background-color: rgb(252, 252, 252);
+    width: 25vw;
+    height: 200px;
+    margin: 0 10px;
+    border-radius: 10px;
+    box-shadow: 3px 5px 5px rgba(0, 0, 0, 0);
+    padding: 15px;
+    transition: all .3s ease;
+
+}
+.processo-box h1{
+    font-size: 15px !important;
+   margin-bottom:  10px !important;
+   padding: 0 !important;
+   font-weight: bold !important;
+   color: #eb5757;
+}
+.processo-box p{
+    font-size: 14px;
+}
+
+.processo-box:hover{
+transform: rotate(-2deg);
+box-shadow: 3px 5px 5px rgba(0, 0, 0, 0.152);
+}
