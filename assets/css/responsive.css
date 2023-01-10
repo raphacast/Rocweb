@@ -63,9 +63,20 @@ text-align: right;
     background-position: center;
     background-size: cover;
     transform-style: preserve-3d;
-    transition: all .9s !important;
+    transition: all 0.1s ease !important;
 
 }
-.celular:hover{
-    transform:rotateY(45deg) translateY(-15px) ;
-}
+/* .celular::before{
+    content: '';
+    position: absolute;
+    background-image: url(/assets/images/responsive/lateral.png);
+    background-position: center;
+    background-size: cover;
+    width: 45px;
+    height: 100%;
+
+    transform-origin: left;
+    transform:rotateY(-90deg) translateY(-15px) ;
+
+
+} */
