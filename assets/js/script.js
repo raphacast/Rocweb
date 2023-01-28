@@ -1,4 +1,4 @@
-const buttonChat = document.querySelector('.chatbox')
+const buttonChat = document.querySelector('.orcamento')
 const emailTx = document.querySelector('.email-tx')
 
 buttonChat.addEventListener('click', ()=>{

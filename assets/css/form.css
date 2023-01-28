@@ -8,7 +8,7 @@
     border: 3px solid #fff;
     border-radius: 50%;
     background-image: url(/assets/images/chat.svg), 
-    linear-gradient(180deg, #eb5757, #eb3636);
+    linear-gradient(180deg, #28b94b, #2fd155);
     background-position: 50% 50%, 0px 0px;
     background-repeat: no-repeat, repeat;
     box-shadow: 0 5px 14px 0 rgb(80 94 120 / 25%);
@@ -20,7 +20,7 @@
 .chatbox:hover{
     margin-right: 20px;
     background-image: url(/assets/images/chat.svg), 
-    linear-gradient(180deg, #e91d1d, #eb5757);
+    linear-gradient(180deg, #2fd155, #28b94b);
 }
 
 #chatbox-body{
